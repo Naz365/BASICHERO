@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Viga','fira code' sans-serif; 
+}
+.container{
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #ddd;
+width: 100vw;
+height: 100vh;
+
+}
+.main-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 500px;
+    background-image:url("bg imag.png");
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0 0 25px 0.1px#cecece;
+}
+hr{
+    width: 215px;
+}
+.h-feild{
+    margin-top: 75px;
+    font-weight: 500;
+    font-size: 3.5rem;
+    margin-bottom: 10px
+}
+.d-feild{
+    font-size: 1.2rem;
+    line-height: 3em;
+}
+.s-feild{
+    font-weight: 100;
+    font-family: 'viga', sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.back-btn{
+    background-color: #51A5EA;
+    border: none;
+    border-radius: 45%;
+    color: #ffffff;
+    padding: 15px 65px;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.end{
+    margin-top: 40px;
+}
+.end-desc{
+    font-family: 'fira code', sans-serif;
+    color:#51A5EA;
+    margin-top: 90px;
+    font-size: 0.75rem;
+}
+span{
+    font-weight: bold;
+}

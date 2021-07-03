@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: cadetblue;
+}
+.info-table{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+border-collapse: collapse;
+width: auto;
+justify-content: center;
+}
+.info-table th {
+    border: 1px solid rgb(171, 243, 203);
+    padding: 10px;
+    
+}
+.info-table tr:nth-child(even){
+    background-color: #ee6565;
+}
+.info-table tr:hover {
+    background-color: coral;
+}
+.info-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0ad3da;
+    color: rgb(255, 255, 255);
+}
